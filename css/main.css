@@ -1,0 +1,154 @@
+html, body {
+  height: 100%;
+  min-height: 480px;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  color: rgb(68, 68, 68);
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: rgb(68, 68, 68);
+}
+
+.col-linkedin a:hover,.col-linkedin a:active {
+  color: rgb(0, 123, 182);
+}
+
+.col-github a:hover,.col-github a:active {
+  color: rgb(51, 51, 51);
+}
+
+.col-twitter a:hover,.col-twitter a:active {
+  color: rgb(0, 172, 237);
+}
+
+.col-facebook a:hover,.col-facebook a:active {
+  color: rgb(59, 89, 152);
+}
+
+.header {
+  border-bottom: 1px solid rgb(144, 22, 17);
+  letter-spacing: 2px;
+}
+
+.name {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.firstname {
+  color: rgb(144, 22, 17);
+  font-weight: 400;
+}
+
+.occupation {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.social {
+  text-align: center;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.col-social {
+  margin-top: 40px;
+}
+
+/* ExtraSmall devices - 768px and below */
+@media (max-width: 768px) {
+  .name {
+    font-size: 28px;
+  }
+
+  .occupation {
+    font-size: 18px;
+    top: -8px;
+  }
+
+  .fa {
+    font-size: 96px;
+  }
+
+  .social-tag {
+    font-size: 18px;
+  }
+}
+
+/* Small devices - 768px and up */
+@media (min-width: 768px) {
+  .name {
+    font-size: 64px;
+    text-transform: uppercase;
+  }
+
+  .occupation {
+    font-size: 32px;
+    top: -16px;
+  }
+
+  .fa {
+    font-size: 128px;
+  }
+
+  .social-tag {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices - 992px and up */
+@media (min-width: 992px) {
+  .container {
+    position: relative;
+    top: 50%;
+    margin-top: -135px;
+  }
+
+  .name {
+    font-size: 48px;
+    top: 10px;
+  }
+
+  .occupation {
+    font-size: 28px;
+    top: 32px;
+  }
+
+  .social-tag {
+    font-size: 22px;
+  }
+}
+
+/* Large devices - 1200px and up */
+@media (min-width: 1200px) {
+  .container {
+    position: relative;
+    top: 50%;
+    margin-top: -148px;
+  }
+
+  .name {
+    font-size: 64px;
+    top: 10px;
+  }
+
+  .occupation {
+    font-size: 36px;
+    top: 42px;
+  }
+
+  .social-tag {
+    font-size: 24px;
+  }
+}
