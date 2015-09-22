@@ -9,11 +9,15 @@ body {
   color: rgb(68, 68, 68);
 }
 
-a, a:visited, a:hover, a:active {
-  text-decoration: none;
+a, a:visited, a:hover, a:active, a:link {
+  text-decoration: none !important;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
-a, a:visited {
+a, a:visited, a:link {
   color: rgb(68, 68, 68);
 }
 
