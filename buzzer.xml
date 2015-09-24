@@ -2,4 +2,10 @@
 <Response>
     <Pause />
     <Play digits="9"></Play>
+    <Pause />
+    <Play digits="9"></Play>
+    <Pause length="2" />
+    <Play digits="9"></Play>
+    <Pause length="3" />
+    <Say>Something is wrong. Buzz Again.</Say>
 </Response>
