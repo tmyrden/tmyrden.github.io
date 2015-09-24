@@ -2,7 +2,7 @@
 <Response>
     <Pause />
     <Play digits="9"></Play>
-    <Pause />
+    <Pause length="2" />
     <Play digits="9"></Play>
     <Pause length="2" />
     <Play digits="9"></Play>
