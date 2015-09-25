@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Response>
-    <Pause />
-    <Play digits="9"></Play>
-    <Pause length="2" />
-    <Play digits="9"></Play>
-    <Pause length="2" />
-    <Play digits="9"></Play>
-    <Pause length="3" />
-    <Say>Something is wrong. Buzz Again.</Say>
+    <Gather maxDigits="4" action="buzzer-verify.xml" method="GET" />
 </Response>
