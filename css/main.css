@@ -38,7 +38,7 @@ a, a:visited, a:link {
 }
 
 .header {
-  border-bottom: 1px solid rgb(144, 22, 17);
+  border-bottom: 1px solid #1F3864;
   letter-spacing: 2px;
 }
 
@@ -48,7 +48,7 @@ a, a:visited, a:link {
 }
 
 .firstname {
-  color: rgb(144, 22, 17);
+  color: #1F3864;
   font-weight: 400;
 }
 
